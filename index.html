@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/about.css">
 </head>
 <body>
     <main>
         <section class="about-complex">
             <div class="container">
-                <h2 class="about-complex-logo">About Complex</h2>
-                <div class="about-complex-sup">
-                    <div class="complex-sup-1">
-                        <picture class="about-complex-photo">
+                <h2 class="section-title visually-hidden">About Complex</h2>
+                <div class="main-compl-top-part">
+                    <div class="main-compl-top-1">
+                        <picture class="complex-photo first-one">
                             <source
                             srcset="./image/abt-compx-im1-desk.jpg 1x, ./image/abt-compx-im1-desk-2x.jpg 2x"
                             media="(min-width: 1440px)"
@@ -33,8 +37,8 @@
                             src="./image/abt-compx-im1-mob.jpg" 
                             alt="image-1"/>
                         </picture>
-                        <div class="complex-sup-2">
-                            <picture>
+                        <div class="main-compl-top-1-abs">
+                            <picture class="complex-photo second-one">
                                 <source
                                 srcset=""
                                 media="(min-width: 1440px)"
@@ -54,33 +58,36 @@
                                 src="./image/abt-compx-im2-mob.jpg" 
                                 alt="image-2"/>
                             </picture>
-                        <div>
+                        <div class="complex-review first-review">
                             <img
                             srcset="./image/abt-cmpx-im-girl-mob.png 1x, ./image/abt-cmpx-im-girl-desk.png 2x"
                             src="./image/abt-cmpx-im-girl-mob.png"
-                            alt="photo-Maria"/>
-                            <div>
+                            alt="photo-Maria"
+                            width="41"
+                            height="41"
+                            />
+                            <div class="review-text-wrap">
                                 <p>Maria</p>
                                 <p>give rating <span>4.5</span></p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <h3>restaurant-hotel complex</h3>
-                    <p>
+                <div class="text-part-complex">
+                    <h3 class="text-title-complex">restaurant-hotel complex</h3>
+                    <p class="complex-text">
                         Indulge in a taste of luxury with every bite at Hotel Mimino. From the freshest seafood to the most succulent steaks, every dish is crafted with care to ensure that you enjoy a truly memorable dining experience.
                     </p>
-                    <p>
+                    <p class="complex-text">
                         Treat yourself to a taste of the good life and come dine with us today!
                     </p>
                 </div>
             </div>
 
-                <div class="about-complex-sub">
-                    <div>
-                        <div>
-                            <picture>
+                <div class="main-compl-bottom-part">
+                    <div class="main-compl-bottom-1">
+                        <div class="main-compl-bottom-abs-wrap">
+                            <picture class="complex-photo third-one">
                                 <source
                                 srcset="./image/abt-compx-im3-desk.jpg 1x, ./image/abt-compx-im3-desk-2x.jpg 2x"
                                 media="(min-width: 1440px)"
@@ -101,14 +108,14 @@
                                 alt="image-3"
                                 />
                             </picture>
-                            <div>
+                            <div class="complex-review second-review">
                                 <img
                                 srcset="./image/abt-cmpx-im-boy-mob.png 1x, ./image/abt-cmpx-im-boy-desk.png 2x" 
                                 src="./image/abt-cmpx-im-boy-mob.png" 
                                 alt="photo-Alexandr"
                                 width="41"
                                 height="41"/>
-                                <div>
+                                <div class="review-text-wrap">
                                     <p>Alexandr</p>
                                     <p>give rating <span>5.5</span></p>
                                 </div>
@@ -116,13 +123,13 @@
                         </div>
                     </div>
                     <div>
-                        <div>
-                            <h3>business class hotel</h3>
-                            <p>
+                        <div class="main-compl-bottom-2">
+                            <h3 class="text-part-complex">business class hotel</h3>
+                            <p class="complex-text">
                                 The Mimino hotel features spacious and stylish double luxury rooms with modern amenities for a comfortable stay.
                             </p>
                         </div>
-                        <picture>
+                        <picture class="complex-photo fourth-one">
                             <source
                             srcset="./image/abt-compx-im4-desk.jpg 1x, ./image/abt-compx-im4-desk-2x.jpg 2x"
                             media="(min-width: 1440px)"
