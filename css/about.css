@@ -5,6 +5,9 @@ body {
     text-transform: uppercase;
     letter-spacing: -.02em;
 }
+/* *, *::before, *::after {
+    box-sizing: inherit;
+} */
 .about-complex {
     padding-top: 64px;
 }
@@ -163,6 +166,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    left: 345px;
+
     }
 
     .third-one {
