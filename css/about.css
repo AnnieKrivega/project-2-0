@@ -72,7 +72,10 @@ body {
 }
 
 .main-compl-bottom-2 {
-    left: 320px;
+    width: 268px;
+    height: 72px;
+    position: relative;
+    top: 110px;
 }
 .main-compl-bottom-2 .text-part-complex {
     margin-bottom: 40px;
@@ -160,7 +163,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 32px;
     }
 
     .third-one {
@@ -203,5 +205,11 @@ body {
     }
 
     .main-compl-bottom-2 {
+        padding-left: 54px;
+        padding-right: 87px;
     }
+.fourth-one {
+    position: relative;
+    right: 284px;
+}
 }
